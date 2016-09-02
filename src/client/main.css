@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-botton: 30px;
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.cellRow {
+  height: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.alive {
+  border: 1px solid lightgray;
+  background-color: green;
+  flex-grow: 1;
+}
+
+.dead {
+  border: 1px solid lightgray;
+  background-color: white;
+  flex-grow: 1;
+}
+
+.buttons {
+  margin: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.control {
+  flex-grow: 1;
+}
+
+.generation {
+  width: 600px;
+  margin: auto;
+}
